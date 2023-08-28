@@ -1,0 +1,9 @@
+{
+	"name": "ws-adf-proyectofinal-jean-avellaneda",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e6b74e2d-d11e-48d5-8182-d414f142fa55",
+		"tenantId": "b18f22cc-deea-44b3-a979-b887c5bed2e9"
+	}
+}

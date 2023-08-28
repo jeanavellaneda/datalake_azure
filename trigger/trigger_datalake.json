@@ -1,0 +1,24 @@
+{
+	"name": "trigger_datalake",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline_datalake",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2023-08-28T00:02:00",
+				"timeZone": "SA Pacific Standard Time"
+			}
+		}
+	}
+}
